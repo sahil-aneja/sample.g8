@@ -22,7 +22,7 @@ Seq(Compile, Test).flatMap(c =>
 
 scalacOptions ++= "-deprecation" :: "unchecked" :: "-feature" :: Nil
 
-val unfilteredVersion = "$unfiltered_version$"
+val unfilteredVersion = "unfiltered_version"
 
 libraryDependencies ++= Seq(
   "ws.unfiltered" %% "unfiltered-directives" % unfilteredVersion,
