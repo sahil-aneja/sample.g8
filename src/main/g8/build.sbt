@@ -2,9 +2,9 @@ organization := "com.example"
 
 name := "$name$"
 
-version := "$version$"
+version := "version"
 
-scalaVersion := "$scala_version$"
+scalaVersion := "scala_version"
 
 val unusedWarnings = (
   "-Ywarn-unused" ::
